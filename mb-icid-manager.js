@@ -27,7 +27,7 @@ class IDManager {
 
     debugLog(message) {
         if (this.debug) {
-            console.log(`IDManager, ${this.idCookieName}:`, message)
+            //console.log(`IDManager, ${this.idCookieName}:`, message)
         }
     }
 

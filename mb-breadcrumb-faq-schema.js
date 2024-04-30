@@ -17,7 +17,7 @@ function injectSchemaScript(schemaId, schemaType, schemaContent) {
     });
 
     document.head.appendChild(script);
-    console.log(`${schemaId} schema generated and appended to <head>.`);
+    //console.log(`${schemaId} schema generated and appended to <head>.`);
 }
 
 /**
@@ -26,7 +26,7 @@ function injectSchemaScript(schemaId, schemaType, schemaContent) {
 function generateFaqSchema() {
     const faqItems = document.querySelectorAll('.faq-item_wrapper');
     if (!faqItems.length) {
-        console.log('No FAQ items found.');
+        //console.log('No FAQ items found.');
         return;
     }
 
@@ -49,7 +49,7 @@ function generateBreadcrumbSchema() {
     // Check for the existence of the breadcrumb container.
     const breadcrumbContainer = document.querySelector('.secondary-breadcrumb');
     if (!breadcrumbContainer) {
-        console.log('Breadcrumb container not found.');
+        //console.log('Breadcrumb container not found.');
         return;
     }
 

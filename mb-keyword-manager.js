@@ -102,7 +102,7 @@ class DynamicKeywordInserter {
      */
     debugLog(message, ...optionalParams) {
         if (this.debug) {
-            console.log(message, ...optionalParams)
+            //console.log(message, ...optionalParams)
         }
     }
 }
