@@ -1,3 +1,3 @@
 # landc-website
 
-Javascript code for various functions
+Javascript code for various website functions
