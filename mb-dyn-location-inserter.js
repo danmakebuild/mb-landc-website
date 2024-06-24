@@ -12,7 +12,7 @@
 
             if (locationId) {
                 // Fetch the JSON data from the external file
-                fetch('https://cdn.jsdelivr.net/gh/danmakebuild/mb-landc-website@main/dyn-locations-minified.json')
+                fetch('dyn-locations-minified.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Network response was not ok');
